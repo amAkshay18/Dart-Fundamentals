@@ -9,10 +9,10 @@ bool? validatePhoneNumber(String phone) {
   }
 }
 
-void main(List<String> args) {
+void main() {
   try {
     // ignore: unused_local_variable
-    final phoneValid = validatePhoneNumber('945456656');
+    final phoneValid = validatePhoneNumber('0123456789');
   } on InvalidPhoneNumberException catch (_) {
     print('Invalid phone number');
   } catch (e) {

@@ -1,3 +1,45 @@
+/*
+Flutter's Structure:
+Flutter is designed in a way where different parts of it are like layers stacked on top of each other. 
+Each layer serves a specific purpose and communicates with the layers above and below it.
+
+Operating System Interaction:
+When you build a Flutter app, it's packaged just like any other app for your phone or computer. 
+This means it interacts with the device's operating system in the same way.
+
+Flutter Engine:
+At the core of Flutter is something called the Flutter engine. It's like the powerhouse of Flutter, written in a language called C++. 
+It handles a lot of important tasks like drawing things on the screen, managing how your app interacts with the device, 
+handling graphics and text, and more.
+
+Flutter Framework:
+This is where most developers spend their time. It's a collection of tools and building blocks written in a language called Dart. 
+It helps you create your app's user interface, deal with animations, gestures, and all sorts of things you need to make your app work well.
+
+Widgets and Rendering:
+Widgets are like building blocks for your app's user interface. They're arranged in a tree-like structure, 
+and the rendering layer takes care of actually showing them on the screen in the right places.
+
+Material and Cupertino Libraries:
+These are special sets of tools provided by Flutter to make it easier to design your app to look and feel like 
+either an Android (Material) or iOS (Cupertino) app.
+
+Packages:
+Sometimes you need extra features in your app, like using a camera or loading web pages. 
+These extra features often come in the form of packages that you can add to your Flutter app.
+
+Anatomy of an App:
+When you create a Flutter app, it consists of several parts:
+
+Your Dart code, where you design your app and implement its features.
+The Flutter framework, which helps you build your app's user interface and handles a lot of the behind-the-scenes work.
+The Flutter engine, which does the heavy lifting in terms of graphics and performance.
+The embedder, which helps your app talk to the device it's running on.
+The runner, which puts everything together to make your app actually work on your device.
+*/
+
+//-------------------------------------------------------------------===========================------------------------------------------------------------------
+
 /*Flutter Architecture
 The Flutter architecture mainly comprises of four components.
 1.Flutter Engine

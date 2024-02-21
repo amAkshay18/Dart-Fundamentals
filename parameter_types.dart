@@ -11,8 +11,8 @@ void greet1({required String name, int age = 25}) {
    Defined with a question mark ? after their type in the declaration.
    Can be omitted when calling, and their default value is used (provided during declaration).
 */
-void printDetails(String name, int age, String? city) {
-  print("Name: $name, Age: $age, City: ${city ?? "Unknown"}");
+void printDetails(String name, int age, [String? city]) {
+  print("Name: $name, Age: $age, City: ${city}");
 }
 
 /* Positional Parameters
@@ -44,7 +44,7 @@ void main() {
   greet1(name: 'Akshay'); // Calling with named arguments
   greet1(name: 'Akash', age: 23); // Calling with named arguments
 
-  printDetails("Vishnu", 25, null); // Omitting optional parameter
+  printDetails("Vishnu", 25); // Omitting optional parameter
   printDetails("Rahul", 25, 'Thriponithura');
   //==================================================================================================
 
