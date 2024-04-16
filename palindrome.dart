@@ -1,7 +1,7 @@
 void main() {
   String input = "malayalam";
 
-  if (isPalindrome(input)) {
+  if (isPalindrome1(input)) {
     print("$input is a palindrome.");
   } else {
     print("$input is not a palindrome.");
@@ -20,4 +20,9 @@ bool isPalindrome(String text) {
     right--;
   }
   return true;
+}
+
+//Palindrome  using inbuild methods
+bool isPalindrome1(String str) {
+  return str == str.split('').reversed.join();
 }

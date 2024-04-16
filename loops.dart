@@ -7,7 +7,7 @@ void main(List<String> args) {
     print(n);
   }
 
-  //forEach loop
+  //forEach is not a loop; It is a method
   items.forEach((n) {
     print(n);
   });
