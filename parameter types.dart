@@ -1,7 +1,8 @@
 /* 1.Named Parameters ====================================================================================
    Defined within curly braces {} in the function declaration.
    Passed with names when calling.
-   Optional: Unless marked as required, they can be omitted when calling
+   Optional: Unless marked as required, they can be omitted when calling 
+   Named parameters are optional by default by dart.
 */
 void greet1({required String name, int age = 25}) {
   print("Hello, $name! You are $age years old.");
