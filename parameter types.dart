@@ -19,6 +19,7 @@ void printDetails(String name, int age, [String? city]) {
 /* Positional Parameters
    Defined without names in the function declaration.
    Order matters! They must be provided in the same order as defined. 
+   Positional parameters always required by default by dart.
 */
 
 void greet(String name, int age) {

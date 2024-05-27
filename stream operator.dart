@@ -4,6 +4,7 @@ int square(int x) => x * x;
 // }
 
 // Stream Operator works like a function or It is just like an anonymous function in dart.
+// Lamda function, Fat Arrow notation.
 
 void main(List<String> args) {
   int num = 5;

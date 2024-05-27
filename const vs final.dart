@@ -1,6 +1,6 @@
 void main() {
   //const must be initialized;
-  //Use const for values that are known aat compile time
+  //Use const for values that are known at compile time
   const int x = 5;
   print(x);
   const String name = "Akshay";
