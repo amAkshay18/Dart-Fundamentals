@@ -19,5 +19,5 @@ void main() {
   int result = factorial(number);
   print(result);
 
-  print(factorial2(5)); // Should print 120
+  print(factorial2(10)); // Should print 120
 }
