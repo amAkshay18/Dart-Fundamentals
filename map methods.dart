@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
 // 1.Creating a Map:
   var map = Map();
