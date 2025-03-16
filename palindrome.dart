@@ -1,7 +1,6 @@
 bool isPalindrome1(String text) {
   int left = 0;
   int right = text.length - 1;
-
   while (left < right) {
     if (text[left] != text[right]) {
       return false;
